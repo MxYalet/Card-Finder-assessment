@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Card info finder</string>
+    <string name="button_text">Find card info</string>
+
+    <string name="card_holder_name">CARD HOLDER NAME</string>
+    <string name="exp_date">EXP. DATE</string>
+    <string name="card_brand">CARD BRAND</string>
+    <string name="card_type">CARD TYPE</string>
+    <string name="bank">BANK</string>
+    <string name="country">COUNTRY</string>
+
+    <string name="your_card_details">Your card details</string>
+
+</resources>
