@@ -8,6 +8,7 @@ data class BankResponse(
     val prepaid: Boolean,
     val country: BinCountry,
     val bank: BankDetails
+
 )
 
 data class BinNumber(
