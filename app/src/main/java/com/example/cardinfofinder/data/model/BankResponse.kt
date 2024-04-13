@@ -23,6 +23,8 @@ data class BankDetails(
     val city: String
 )
 
+
+
 data class BinCountry(
     val numeric: String,
     val alpha2: String,
