@@ -17,7 +17,6 @@ import dagger.hilt.android.AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private val mainActivityViewModel: MainActivityViewModel by viewModels()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -28,12 +27,9 @@ class MainActivity : AppCompatActivity() {
         val fragmentManager = supportFragmentManager
 
         loginButton.setOnClickListener {
-
-
             val cardNumber = binEditText.text.toString()
-            mainActivityViewModel.fetchBinDetails(cardNumber)
+        //    mainActivityViewModel.fetchBinDetails(cardNumber)
         }
-
         mainActivityViewModel.observeGetData.observe(this, Observer { binDetails ->
             binDetails?.let {
                 val fragment = CardDetailsFragment(it)
